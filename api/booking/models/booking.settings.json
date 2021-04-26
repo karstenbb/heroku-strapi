@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bookings",
+  "info": {
+    "name": "Booking"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "dates": {
+      "type": "integer"
+    },
+    "recommended": {
+      "type": "boolean"
+    },
+    "price": {
+      "type": "integer"
+    },
+    "picture": {
+      "type": "string"
+    }
+  }
+}
