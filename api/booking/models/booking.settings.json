@@ -14,9 +14,6 @@
     "title": {
       "type": "string"
     },
-    "recommended": {
-      "type": "boolean"
-    },
     "price": {
       "type": "integer"
     },
