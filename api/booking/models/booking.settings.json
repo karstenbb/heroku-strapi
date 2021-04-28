@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "bookings",
   "info": {
-    "name": "Booking"
+    "name": "Booking",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -13,9 +14,6 @@
     "title": {
       "type": "string"
     },
-    "dates": {
-      "type": "integer"
-    },
     "recommended": {
       "type": "boolean"
     },
@@ -24,6 +22,12 @@
     },
     "picture": {
       "type": "string"
+    },
+    "startdate": {
+      "type": "date"
+    },
+    "enddate": {
+      "type": "date"
     }
   }
 }
